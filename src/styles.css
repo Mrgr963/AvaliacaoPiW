@@ -1,0 +1,20 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Destaca alunos REPROVADOS mundando cor do BG */
+table tr.reprovado {
+  background-color: red;
+}
+
+/* Destaca alunos APROVADOS mudando BG */
+table tr.aprovado {
+  background-color: blue;
+}
+
+/* Destaque geral, usado na questão D) */
+.destaque {
+  background-color: blue;
+  font-weight: bold;
+}
